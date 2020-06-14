@@ -62,6 +62,8 @@ app.post('/compose', (req, res) => {
       res.redirect("/");
     }
   });
+
+
 });
 
 app.get("/posts/:postId", (req, res) => {
